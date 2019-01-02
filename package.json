@@ -13,9 +13,11 @@
     "url": "git+https://github.com/kotaro44/farm-at-home-vuejs.git"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 80",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 8082",
+    "dev-external": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 80",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "frontend-server": "npm run dev",
+    "frontend-server-external": "npm run dev-external",
     "backend-server": "fah-backend -p 3000",
     "start": "npm run backend-server | npm run frontend-server"
   },
