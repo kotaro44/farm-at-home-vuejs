@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Farm@Home - VueJS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="http://kotaro44.github.io/public/farm-at-home/app.css"/>
+  </head>
+  <body>
+    <div id="app">
+      <div class="fixed-background"></div>
+        <div class="view-wrapper">
+          <fah-header></fah-header>
+          <div class="content-wrapper">
+            <router-view></router-view>
+          </div>
+          <fah-footer></fah-footer>
+        </div>
+      </div>
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
