@@ -1,7 +1,7 @@
 <template>
   <div class="footer-wrapper fah-footer-wrapper">
     <div>
-      <b>Farm@Home.com</b>
+      <b>Farm@Home.com (VueJS Version)</b>
     </div>
     <div>
       <a href="https://kotaro44.github.com">Carlos A. Sanchez</a>
